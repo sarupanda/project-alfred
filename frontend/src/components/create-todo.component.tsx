@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class CreateTodo extends Component {
-    render() {
-        return (
-            <div>
-                <p>Welcome to Create Todo Component!!</p>
-            </div>
-        )
-    }
-}
+export const CreateTodo = () => {
+	return (
+		<div>
+			<p>Welcome to Create Todo List Component!</p>
+		</div>
+	);
+};
